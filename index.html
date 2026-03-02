@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca CEP - Consulta de Endereço</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 Busca CEP</h1>
+            <p>Consulte endereços através do CEP</p>
+        </header>
+
+        <main>
+            <div class="search-box">
+                <input type="text" id="cep" placeholder="Digite o CEP (apenas números)" maxlength="9">
+                <button id="btnBuscar">Buscar</button>
+            </div>
+
+            <div class="result-box" id="resultado">
+                <p class="info-text">Digite um CEP para começar a busca</p>
+            </div>
+
+            <div class="loader" id="loader"></div>
+        </main>
+
+        <footer>
+            <p>Desenvolvido para atividade acadêmica</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
